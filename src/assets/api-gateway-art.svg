@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="34" y1="18" x2="604" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171c30"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="gateway" x1="251" y1="89" x2="391" y2="272" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#252846"/>
+      <stop offset="1" stop-color="#171e2b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(172 0 0 111 322 181)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8f83ff" stop-opacity=".21"/>
+      <stop offset="1" stop-color="#8f83ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="18" fill="url(#bg)"/>
+  <path d="M0 72h640M0 144h640M0 216h640M0 288h640M80 0v360M160 0v360M480 0v360M560 0v360" stroke="#a9a7e4" stroke-opacity=".05"/>
+  <ellipse cx="322" cy="181" fill="url(#glow)" rx="172" ry="111"/>
+  <rect x="37" y="136" width="120" height="91" rx="13" fill="#171f2b" stroke="#59617e" stroke-opacity=".58"/>
+  <circle cx="69" cy="168" r="9" fill="#8e85ff" fill-opacity=".2"/>
+  <path d="M65 168h8m-4-4v8" stroke="#b3aaff" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="55" y="194" fill="#e2e5f4" font-family="Arial,sans-serif" font-size="11" font-weight="600">API CLIENTS</text>
+  <text x="55" y="211" fill="#9298b2" font-family="Arial,sans-serif" font-size="9">auth · requests</text>
+  <path d="M157 180h75" stroke="#9b91ff" stroke-width="2" stroke-linecap="round"/>
+  <path d="m223 174 8 6-8 6" stroke="#9b91ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="230" y="83" width="180" height="194" rx="19" fill="url(#gateway)" stroke="#8378da" stroke-opacity=".7"/>
+  <rect x="263" y="111" width="114" height="93" rx="14" fill="#191f31" stroke="#9388ff" stroke-opacity=".52"/>
+  <path d="M320 129c-13 0-23 10-23 23v6h46v-6c0-13-10-23-23-23Z" stroke="#b0a7ff" stroke-width="2"/>
+  <rect x="289" y="157" width="62" height="31" rx="7" fill="#292645" stroke="#a297ff" stroke-opacity=".65"/>
+  <path d="M306 172h28m-8-7 8 7-8 7" stroke="#c1baff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="229" fill="#f0efff" font-family="Arial,sans-serif" font-size="11" font-weight="600" text-anchor="middle">API GATEWAY</text>
+  <text x="320" y="249" fill="#9d9ab9" font-family="Arial,sans-serif" font-size="9" text-anchor="middle">auth · limits · routing</text>
+  <path d="M410 131h62v-31h34M410 180h96M410 229h62v31h34" stroke="#9b91ff" stroke-opacity=".8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m500 94 7 6-7 6m0 68 7 6-7 6m0 64 7 6-7 6" stroke="#9b91ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="509" y="72" width="94" height="54" rx="10" fill="#17232a" stroke="#547b72" stroke-opacity=".6"/>
+  <circle cx="526" cy="91" r="4" fill="#68ddb9"/>
+  <text x="539" y="94" fill="#e0e9e6" font-family="Arial,sans-serif" font-size="9">PAYMENTS</text>
+  <text x="523" y="112" fill="#829a94" font-family="Arial,sans-serif" font-size="8">service A</text>
+  <rect x="509" y="153" width="94" height="54" rx="10" fill="#17232a" stroke="#547b72" stroke-opacity=".6"/>
+  <circle cx="526" cy="172" r="4" fill="#68ddb9"/>
+  <text x="539" y="175" fill="#e0e9e6" font-family="Arial,sans-serif" font-size="9">ACCOUNTS</text>
+  <text x="523" y="193" fill="#829a94" font-family="Arial,sans-serif" font-size="8">service B</text>
+  <rect x="509" y="234" width="94" height="54" rx="10" fill="#17232a" stroke="#547b72" stroke-opacity=".6"/>
+  <circle cx="526" cy="253" r="4" fill="#68ddb9"/>
+  <text x="539" y="256" fill="#e0e9e6" font-family="Arial,sans-serif" font-size="9">REPORTS</text>
+  <text x="523" y="274" fill="#829a94" font-family="Arial,sans-serif" font-size="8">service C</text>
+  <rect x="238" y="303" width="164" height="29" rx="8" fill="#171e2a" stroke="#7d73ca" stroke-opacity=".45"/>
+  <circle cx="255" cy="317" r="4" fill="#a195ff"/>
+  <text x="268" y="320" fill="#b9b8d2" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">REDIS RATE LIMITS</text>
+</svg>

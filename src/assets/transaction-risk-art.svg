@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="32" y1="18" x2="608" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#152438"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <linearGradient id="engine" x1="228" y1="88" x2="417" y2="271" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20334a"/>
+      <stop offset="1" stop-color="#17212c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(174 0 0 104 320 177)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5a9df0" stop-opacity=".21"/>
+      <stop offset="1" stop-color="#5a9df0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="360" rx="18" fill="url(#bg)"/>
+  <path d="M0 72h640M0 144h640M0 216h640M0 288h640M80 0v360M160 0v360M480 0v360M560 0v360" stroke="#a7c7ef" stroke-opacity=".05"/>
+  <ellipse cx="320" cy="177" fill="url(#glow)" rx="174" ry="104"/>
+  <rect x="37" y="93" width="145" height="174" rx="14" fill="#17212b" stroke="#55718b" stroke-opacity=".65"/>
+  <text x="56" y="119" fill="#b4c8db" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.3">TRANSACTION FEED</text>
+  <path d="M55 137h108M55 180h108M55 223h108" stroke="#52687c" stroke-opacity=".35"/>
+  <circle cx="64" cy="154" r="5" fill="#69d9b4"/>
+  <text x="78" y="157" fill="#dce8f1" font-family="Arial,sans-serif" font-size="9">event 001</text>
+  <circle cx="64" cy="197" r="5" fill="#78a9f2"/>
+  <text x="78" y="200" fill="#dce8f1" font-family="Arial,sans-serif" font-size="9">event 002</text>
+  <circle cx="64" cy="240" r="5" fill="#f1b56c"/>
+  <text x="78" y="243" fill="#dce8f1" font-family="Arial,sans-serif" font-size="9">event 003</text>
+  <path d="M182 180h39m0 0-8-7m8 7-8 7" stroke="#82b6fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="221" y="77" width="197" height="203" rx="18" fill="url(#engine)" stroke="#6b94c5" stroke-opacity=".67"/>
+  <rect x="252" y="105" width="135" height="39" rx="9" fill="#1a2938" stroke="#6399d1" stroke-opacity=".5"/>
+  <circle cx="272" cy="124" r="6" fill="#6ba8ef" fill-opacity=".3"/>
+  <path d="M269 124h6m-3-3v6" stroke="#9ccaff" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="288" y="128" fill="#d9e8f4" font-family="Arial,sans-serif" font-size="10" font-weight="600">FASTAPI INGESTION</text>
+  <path d="M320 145v20m0 0-8-7m8 7 8-7" stroke="#7eb5f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="252" y="165" width="135" height="76" rx="11" fill="#1a2938" stroke="#6399d1" stroke-opacity=".55"/>
+  <path d="m273 193 13-12 11 15 13-8 14 15 13-14 17 4" stroke="#77aff1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="273" cy="193" r="3" fill="#b8d8ff"/>
+  <circle cx="337" cy="203" r="3" fill="#b8d8ff"/>
+  <text x="320" y="229" fill="#a9c2d8" font-family="Arial,sans-serif" font-size="8" text-anchor="middle">C++ RISK SCORING</text>
+  <rect x="252" y="253" width="135" height="12" rx="6" fill="#6ca9ee" fill-opacity=".13"/>
+  <rect x="252" y="253" width="89" height="12" rx="6" fill="#6ca9ee" fill-opacity=".72"/>
+  <path d="M418 180h45m0 0-8-7m8 7-8 7" stroke="#82b6fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="463" y="104" width="139" height="151" rx="15" fill="#17212b" stroke="#55718b" stroke-opacity=".65"/>
+  <text x="484" y="131" fill="#b4c8db" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.2">RISK DECISION</text>
+  <circle cx="532" cy="184" r="34" stroke="#445a6e" stroke-width="7"/>
+  <path d="M507 207a34 34 0 0 1 43-52" stroke="#f1b56c" stroke-width="7" stroke-linecap="round"/>
+  <path d="m531 183 15-14" stroke="#f1b56c" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="531" cy="183" r="4" fill="#f1b56c"/>
+  <text x="532" y="237" fill="#e4edf5" font-family="Arial,sans-serif" font-size="9" text-anchor="middle">RULES + VELOCITY</text>
+  <rect x="473" y="279" width="119" height="29" rx="8" fill="#1e282f" stroke="#ba8b5a" stroke-opacity=".55"/>
+  <circle cx="490" cy="293" r="4" fill="#efb46f"/>
+  <text x="502" y="296" fill="#d8c5a9" font-family="Arial,sans-serif" font-size="8" letter-spacing=".8">REVIEW SIGNAL</text>
+</svg>
